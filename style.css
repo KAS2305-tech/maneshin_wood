@@ -106,7 +106,7 @@ body {
 .work__card {
     margin: 50px;
     display: flex;
-    max-width: 90%;
+    width: 90%;
 }
 .work__card-img {
     width: 500px;
@@ -164,4 +164,7 @@ body {
 }
 .footer__span {
     font-weight: 700;
+}
+.fotorama {
+    margin: 50px;
 }
