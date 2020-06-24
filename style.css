@@ -1,19 +1,20 @@
 @import url(./blocks/contact-form/contact-form.css);
 
-body {
-    margin: 0;
-    padding: 0;
+body {    
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0 auto;    
     max-width: 1920px;
     width: 100%;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 
 .header {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0 auto;    
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box; 
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -43,7 +44,12 @@ body {
     font-size: 0.8em;
 }
 .main {
-    min-height: 100vh;
+    padding: 0;
+    margin: 0 auto;    
+    max-width: 1920px;
+    min-height: 600px;
+    width: 100%;
+    box-sizing: border-box; 
     background: #111211;
     color: #bea67c;
     position: relative;
@@ -74,9 +80,11 @@ body {
     letter-spacing: 0.3em;
 }
 .work {
-    width: 80%;
-    margin: 0 auto;
-    min-height: 100vh;
+    padding: 0;
+    margin: 0 auto;    
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box; 
     background: #fff;
     color: #111211;
     position: relative;
@@ -106,10 +114,12 @@ body {
 }
 
 .about {
-    max-width: 1920px;
-    background: #111211;
-    margin: 0;
     padding: 0;
+    margin: 0 auto;    
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box; 
+    background: #111211;
 }
 .about__info {
     width: 80%;
