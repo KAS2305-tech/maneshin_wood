@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    background: #111211;
+    color: #868585;    
+    text-transform: uppercase;
+}
+.footer__logo {
+    letter-spacing: 0.3em;
+}
+.footer__copyright {
+    font-size: 0.7em;
+}
+.footer__span {
+    font-weight: 700;
+}

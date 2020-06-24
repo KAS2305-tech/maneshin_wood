@@ -1,0 +1,21 @@
+.about {
+    padding: 0;
+    margin: 0 auto;    
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box; 
+    background: #111211;
+}
+.about__info {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;    
+    color: #bea67c;
+    display: flex;
+}
+.about__title {
+    font-size: 2em;
+}
+.about__text {
+    padding: 50px;
+}

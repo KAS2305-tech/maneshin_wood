@@ -1,0 +1,12 @@
+.contacts {
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contacts__title {
+    color: #111211;
+    font-size: 2em;
+}

@@ -1,4 +1,13 @@
 @import url(./blocks/contact-form/contact-form.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/section-title/section-title.css);
+@import url(./blocks/section-subtitle/section-subtitle.css);
+@import url(./blocks/work/work.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/contacts/contacts.css);
+@import url(./blocks/fotorama/fotorama.css);
 
 body {    
     font-family: Arial, Helvetica, sans-serif;
@@ -9,162 +18,9 @@ body {
     box-sizing: border-box;    
 }
 
-.header {
-    padding: 0;
-    margin: 0 auto;    
-    max-width: 1920px;
-    width: 100%;
-    box-sizing: border-box; 
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    min-height: 92px;
-    background: #111211;
-    color: #ffffff;
-    text-transform: uppercase;  
-    letter-spacing: 0.3em;  
-}
-.header__logo {
-    color: #868585;
-    font-size: 1.5em;
-}
-.header__links {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;    
-    list-style-type: none;
-}
-.header__link {
-    margin: 0 20px;
-    box-sizing: border-box;
-    color: #868585;
-    text-decoration: none;
-    font-size: 0.8em;
-}
-.main {
-    padding: 0;
-    margin: 0 auto;    
-    max-width: 1920px;
-    min-height: 600px;
-    width: 100%;
-    box-sizing: border-box; 
-    background: #111211;
-    color: #bea67c;
-    position: relative;
-}
-.main__text {
-    width: 60%; 
-    height: 60%;
-    min-width: 400px;
-    max-width: 500px;
-    padding: 40px;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    bottom: 0; 
-    right: 0;
-    border-left: 5px solid #bea67c;
-}
-.section__title {    
-    text-transform: uppercase;    
-    font-size: 3em;
-    letter-spacing: 0.3em;
-}
-.section__subtitle{
-    text-transform: uppercase;    
-    font-size: 1em;
-    letter-spacing: 0.3em;
-}
-.work {
-    padding: 0;
-    margin: 0 auto;    
-    max-width: 1920px;
-    width: 100%;
-    box-sizing: border-box; 
-    background: #fff;
-    color: #111211;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    flex-direction: column;
-}
-.card__text {
-    padding: 50px;
-}
-.card__text-title {
-    font-size: 2em;
-}
-.card__text-subtitle {
-    max-width: 80%;
-}
-.work__card {
-    margin: 50px;
-    display: flex;
-    width: 90%;
-}
-.work__card-img {
-    width: 500px;
-    padding: 30px;
-}
 
-.about {
-    padding: 0;
-    margin: 0 auto;    
-    max-width: 1920px;
-    width: 100%;
-    box-sizing: border-box; 
-    background: #111211;
-}
-.about__info {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;    
-    color: #bea67c;
-    display: flex;
-}
-.about__title {
-    font-size: 2em;
-}
-.about__text {
-    padding: 50px;
-}
-.contacts {
-    max-width: 1920px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-.contacts__title {
-    color: #111211;
-    font-size: 2em;
-}
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 70px;
-    background: #111211;
-    color: #868585;    
-    text-transform: uppercase;
-}
-.footer__logo {
-    letter-spacing: 0.3em;
-}
-.footer__copyright {
-    font-size: 0.7em;
-}
-.footer__span {
-    font-weight: 700;
-}
-.fotorama {
-    margin: 50px;
-}
+
+
+
+
