@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneshin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+            <!-- <h3 class="header__logo">Man&#200shin</h3> -->
+            <ul class="header__links">
+                <li><a href="#"  class="header__link">Главная</a></li>
+                <li><a href="#"  class="header__link">Изделия</a></li>
+                <li><a href="#"  class="header__link">Обо мне</a></li>
+                <li><a href="#"  class="header__link">Контакты</a></li>
+            </ul>
+    </header>
+    <main>     
+        <section class="main"> <!-- ГЛАВНАЯ -->
+            <div class="main__text">
+                <h1 class="section__title">Man&#200shin</h1>
+                <p class="section__subtitle">мебель и изделия из древесины</p>
+            </div>      
+        </section>
+        <section class="work"> <!-- МОИ РАБОТЫ -->
+            <div class="work__card">
+                <div class="card__text">
+                    <h5 class="card__text-title">Мебель</h5>
+                    <p class="card__text-subtitle">Мебель, изготовленная для Вашего дома по индивидуальным разверам,
+                        и с учетом особенностей, идеально впишется в интерьер.
+                    </p>
+                </div>
+                <img src="images/DSC03482.jpg" class="work__card-img">
+            </div>
+            <div class="work__card">
+                <img src="images/DSC03539.jpg" class="work__card-img">
+                <div class="card__text">
+                    <h5 class="card__text-title">Мебель</h5>
+                    <p class="card__text-subtitle">Мебель, изготовленная для Вашего дома по индивидуальным разверам,
+                        и с учетом особенностей, идеально впишется в интерьер.
+                    </p>
+                </div>                
+            </div>
+            <div class="fotorama" data-loop="true" data-width="600" data-autoplay="3000">
+                <img src="./images/DSC03930.jpg">
+                <img src="./images/DSC03962.jpg">
+                <img src="./images/DSC03466.jpg">
+                <img src="./images/DSC03516.jpg">
+                <img src="./images/DSC03539.jpg">
+                <img src="./images/DSC05721.jpg">
+            </div>
+            <div class="work__photo"></div> <!-- фотогалерея работ -->
+        </section>
+        <section class="about"> <!-- ОБО МНЕ -->
+            <div class="about__info">
+                <img src="images/DSC05722.jpg" class="work__card-img">
+                <div class="about__text">
+                    <h3 class="about__title">Обо мне</h3>
+                    <p class="about__subtitle">Меня зовут Алексей. Я занимаюсь изготовлением медели и деталей интерьера из дерева любых пород 
+                    по индивидуальным проектам.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container"> <!-- CONTACT FORM -->
+            <h2>Напишите мне</h2>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Ваше имя</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Last Name</span>
+                        <span class="line"></span>
+                    </div>
+                </div> -->
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Ваш Email</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <!-- <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Mobile</span>
+                        <span class="line"></span>
+                    </div>
+                </div> -->
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea required="required"></textarea>
+                            <span class="text">Введите Ваше сообщение</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="contacts">
+            <h3 class="contacts__title">Контакты</h3>
+            <ul>
+                <li>whatsapp</li>
+                <li>telephone</li>
+                <li>vk</li>
+            </ul>
+        </section> -->
+           
+        <div class="social-media"> <!-- ТЕЛЕФОН -->
+            <a href="tel:+79252863646"><img src="./images/phone.png" alt="phone" class="fab link_image"></a>
+        </div>   
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2020 Калугин Андрей</p>
+        <h3 class="footer__logo">Man&#200shin</h3>
+        <p class="footer__copyright">Дизайнер <span  class="footer__span">Калугин Андрей</span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+</html>
