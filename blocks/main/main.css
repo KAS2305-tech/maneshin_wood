@@ -12,7 +12,7 @@
 .main__text {
     width: 60%; 
     height: 60%;
-    min-width: 400px;
+    /* min-width: 400px; */
     max-width: 500px;
     padding: 40px;
     overflow: auto;
@@ -23,4 +23,14 @@
     bottom: 0; 
     right: 0;
     border-left: 5px solid #bea67c;
+}
+
+@media screen and (max-width: 680px ) {
+    .main {
+        min-height: 500px;
+    }
+
+    .main__text {
+        padding: 20px;
+    }
 }

@@ -14,10 +14,10 @@
     text-transform: uppercase;  
     letter-spacing: 0.3em;  
 }
-.header__logo {
+/* .header__logo {
     color: #868585;
     font-size: 1.5em;
-}
+} */
 .header__links {
     margin: 0;
     padding: 0;
@@ -31,4 +31,26 @@
     color: #868585;
     text-decoration: none;
     font-size: 0.8em;
+}
+
+@media screen and (max-width: 680px ) {
+    .header {
+        min-height: 80px;
+        /* letter-spacing: 0.2em; */
+    }
+    .header__link {
+        margin: 0 10px;
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 420px ) {
+    .header {
+        min-height: 42px;
+        letter-spacing: 0.1em;
+    }
+    .header__link {
+        margin: 0 5px;
+        font-size: 0.5em;
+    }
 }

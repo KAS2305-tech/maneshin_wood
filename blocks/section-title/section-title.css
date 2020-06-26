@@ -3,3 +3,10 @@
     font-size: 3em;
     letter-spacing: 0.3em;
 }
+
+@media screen and (max-width: 680px ) {
+    .section__title {
+        font-size: 2em;
+    letter-spacing: 0.2em;
+    }
+}
