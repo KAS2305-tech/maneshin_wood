@@ -9,13 +9,18 @@
 @import url(./blocks/contacts/contacts.css);
 @import url(./blocks/fotorama/fotorama.css);
 
+/* * {
+    border: solid red 1px;  
+} */
+
 body {    
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0 auto;    
     max-width: 1920px;
     width: 100%;
-    box-sizing: border-box;    
+    box-sizing: border-box;  
+    
 }
 
 

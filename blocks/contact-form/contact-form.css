@@ -1,5 +1,5 @@
 .container {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     /* min-height: 100vh; */
@@ -9,6 +9,9 @@
     margin: 0 auto;
     /* width: 80%; */
     padding: 20px 200px;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: grid;
 }
 .container h2 {
     width: 100%;

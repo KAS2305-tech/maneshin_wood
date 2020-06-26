@@ -5,17 +5,33 @@
     width: 100%;
     box-sizing: border-box; 
     background: #111211;
+
+    
 }
 .about__info {
     width: 80%;
     margin: 0 auto;
     padding: 0;    
     color: #bea67c;
-    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: grid;
 }
 .about__title {
     font-size: 2em;
 }
 .about__text {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
     padding: 50px;
+}
+.about__card-img {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+@media screen and (max-width: 1050px ) {
+    
 }
