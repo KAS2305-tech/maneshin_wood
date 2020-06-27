@@ -16,3 +16,16 @@
 .footer__span {
     font-weight: 700;
 }
+
+@media screen and (max-width: 470px ) {
+    .footer {
+        min-height: 50px;
+    }
+    .footer__copyright {
+        font-size: 0.6em;
+    }
+    .footer__logo {
+        letter-spacing: 0.2em;
+    }
+
+}

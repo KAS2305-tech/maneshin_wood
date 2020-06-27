@@ -32,3 +32,14 @@
     /* display: flex; */
 }
 
+@media screen and (max-width: 430px ) {
+    .about__info {
+        margin: 0;
+        width: 100%;
+    }
+    .about__text {
+        padding: 0;
+        width: 100%;
+    }
+}
+

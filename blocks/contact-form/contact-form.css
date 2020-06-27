@@ -1,5 +1,5 @@
 .container {
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     /* min-height: 100vh; */
@@ -28,7 +28,7 @@
 }
 .container .row100 .col {
     position: relative;
-    width: 100%;
+    width: 90%;
     padding: 0 10px;
     margin: 30px 0 10px;
     transition: 0.5s;
@@ -159,4 +159,10 @@ input[type="submit"] {
     width: 30px;
     color: #bea67c;
     transition: transform 0.5s;
+}
+
+@media screen and (max-width: 430px ) {
+    .container {
+        padding: 0;
+    }
 }
